@@ -6,20 +6,32 @@ The majority of the countries finalize health insurance costs based on many fact
 📊 **Dataset Features**
 
 1.age – primary person’s age
+
 2.sex – gender (female/male)
+
 3.bmi – body mass index (kg/m²)
+
 4.children – number of dependents
+
 5.smoker – yes or no
+
 6.region – the beneficiary’s residential area in the US, northeast, southeast, southwest, northwest.
+
 7.charges – actual insurance cost (target)
+
 
 **🔍 Exploratory Data Analysis (EDA) Tasks**
 
 1.Checking the data types, shape, and summary statistics of the data
+
 2.Handling missing values and outliers
+
 3.Plotting histograms, boxplots, and density plots to examine the distribution of each variable
+
 4.Plotting scatterplots, correlation matrices, and heatmaps to explore the relationship between variables
+
 5.Engineer and transform features to enhance model performance
+
 
 Some of the essential patterns that are found in the given data using the EDA approach are:
 
@@ -31,6 +43,8 @@ Gradient boosting Regressor is one of the most effective techniques for building
 **Summary**
 
 • Insurer-relevant factors: age, BMI, smoking status, children, region
+
 • Strong cost drivers: age & smoking
+
 • Gradient Boosting Regressor emerged as the best-fit model—ideal for predicting insurance charges
 
