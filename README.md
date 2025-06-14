@@ -18,3 +18,15 @@ The majority of the countries finalize health insurance costs based on many fact
 4.Plotting scatterplots, correlation matrices, and heatmaps to explore the relationship between variables
 5.Engineer and transform features to enhance model performance
 
+Some of the essential patterns that are found in the given data using the EDA approach are:
+
+The insurance cost is positively correlated with age, bmi, and smoking habit, and negatively correlated with the number of children The insurance cost is higher for smokers than non-smokers, and for females than males The insurance cost varies across different regions, with the highest in the southeast and the lowest in the southwest
+
+Gradient boosting Regressor is one of the most effective techniques for building machine learning models for health insurance cost prediction.Here Gradient boosting Regressor model outperformed other regression models such as Simple Linear Regression,Support Vector Regression, Random forest Regressor in predicting health insurance costs. The Gradient Boosting Regressor consistently delivered the best accuracy
+
+
+**Summary**
+• Insurer-relevant factors: age, BMI, smoking status, children, region
+• Strong cost drivers: age & smoking
+• Gradient Boosting Regressor emerged as the best-fit model—ideal for predicting insurance charges
+
